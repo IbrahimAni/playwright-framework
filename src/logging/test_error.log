@@ -1,0 +1,43 @@
+2024-06-07T04:18:16+01:00 [error]: Error occurred while waiting for "Service" title to be visible: Error: [31mTimed out 25000ms waiting for [39m[2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m()[22m
+
+Locator: getByTitle('Service', { exact: true })
+Expected: visible
+Received: <element(s) not found>
+Call log:
+  [2m- expect.toBeVisible with timeout 25000ms[22m
+[2m  - waiting for getByTitle('Service', { exact: true })[22m
+
+2024-06-07T05:51:09+01:00 [error]: Error clicking Save button: Error: locator.click: Test timeout of 30000ms exceeded.
+Call log:
+  [2m- waiting for getByRole('button', { name: 'Save', exact: true })[22m
+
+2024-06-07T06:05:18+01:00 [error]: Error occurred while waiting for "Service" title to be visible: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m()[22m
+
+Locator: getByTitle('Service', { exact: true })
+Expected: visible
+Received: <element(s) not found>
+Call log:
+  [2m- expect.toBeVisible with timeout 25000ms[22m
+[2m  - waiting for getByTitle('Service', { exact: true })[22m
+
+2024-06-07T06:14:51+01:00 [error]: Error occurred while clicking login button: Error: locator.click: Target page, context or browser has been closed
+2024-06-07T06:18:15+01:00 [error]: Error finding the contact name Jane Doe: expect.toBeVisible: Target page, context or browser has been closed
+2024-06-07T06:22:47+01:00 [error]: Error occurred while waiting for "Service" title to be visible: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m()[22m
+
+Locator: getByTitle('Service', { exact: true })
+Expected: visible
+Received: <element(s) not found>
+Call log:
+  [2m- expect.toBeVisible with timeout 25000ms[22m
+[2m  - waiting for getByTitle('Service', { exact: true })[22m
+
+2024-06-07T06:45:51+01:00 [error]: Error finding the contact name Jane Doe: page.waitForTimeout: Test timeout of 30000ms exceeded.
+2024-06-07T07:10:31+01:00 [error]: Error finding the contact name Jane Doe: [31mTimed out 25000ms waiting for [39m[2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m()[22m
+
+Locator: getByLabel('Scucess', { exact: true })
+Expected: visible
+Received: <element(s) not found>
+Call log:
+  [2m- expect.toBeVisible with timeout 25000ms[22m
+[2m  - waiting for getByLabel('Scucess', { exact: true })[22m
+
