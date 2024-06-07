@@ -1,6 +1,6 @@
-let CryptoJSUtil = require("crypto-js");
-let fs = require("fs");
-let path = require("path");
+const CryptoJSUtil = require("crypto-js");
+const fs = require("fs");
+const path = require("path");
 
 const SALT = process.env.SALT || "defaultSalt";
 const currentDir = __dirname;

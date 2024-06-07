@@ -8,6 +8,10 @@
 - `csv-writer - npm install csv-writer`
 - `csvtojson - npm install csvtojson`
 
+### Instlling ESLint
+- `npm install eslint typescript --save-dev`
+- `npx eslint --init`
+
 ### Setting the ENV variable in the terminal
 - `$env:NODE_ENV="qa"`
 - `$env:NODE_ENV="prod"`
