@@ -1,171 +1,358 @@
-2024-06-06T22:08:34+01:00 [info]: Navigated to login page 'login.salesforce.com'
-2024-06-06T22:08:34+01:00 [info]: Filled username
-2024-06-06T22:08:35+01:00 [info]: Filled password
-2024-06-06T22:08:37+01:00 [info]: Clicked login button
-2024-06-06T22:08:45+01:00 [info]: Setup title is visible
-2024-06-06T22:09:24+01:00 [info]: Navigated to login page 'login.salesforce.com'
-2024-06-06T22:09:24+01:00 [info]: Filled username
-2024-06-06T22:09:24+01:00 [info]: Filled password
-2024-06-06T22:09:26+01:00 [info]: Clicked login button
-2024-06-06T22:09:36+01:00 [info]: Setup title is visible
-2024-06-07T04:17:48+01:00 [info]: Test for Contact Creation is started...
-2024-06-07T04:17:49+01:00 [info]: Navigated to login page 'login.salesforce.com'
-2024-06-07T04:17:49+01:00 [info]: Filled username
-2024-06-07T04:17:49+01:00 [info]: Filled password
-2024-06-07T04:17:51+01:00 [info]: Clicked login button
-2024-06-07T04:18:16+01:00 [error]: Error occurred while waiting for "Service" title to be visible: Error: [31mTimed out 25000ms waiting for [39m[2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m()[22m
-
-Locator: getByTitle('Service', { exact: true })
-Expected: visible
-Received: <element(s) not found>
-Call log:
-  [2m- expect.toBeVisible with timeout 25000ms[22m
-[2m  - waiting for getByTitle('Service', { exact: true })[22m
-
-2024-06-07T04:29:40+01:00 [info]: Test for Contact Creation is started...
-2024-06-07T04:29:41+01:00 [info]: Navigated to login page 'login.salesforce.com'
-2024-06-07T04:29:41+01:00 [info]: Filled username
-2024-06-07T04:29:41+01:00 [info]: Filled password
-2024-06-07T04:29:42+01:00 [info]: Clicked login button
-2024-06-07T04:29:50+01:00 [info]: Setup title is visible
-2024-06-07T04:29:53+01:00 [info]: Clicked on "Service" app
-2024-06-07T04:29:56+01:00 [info]: Service title is visible
-2024-06-07T04:29:56+01:00 [info]: Contacts Tab is visible
-2024-06-07T04:29:57+01:00 [info]: Clicked on Contacts Tab
-2024-06-07T04:29:57+01:00 [info]: Contacts link is clicked
-2024-06-07T04:30:00+01:00 [info]: New button is clicked
-2024-06-07T04:30:06+01:00 [info]: First name is filled as Shiva
-2024-06-07T04:30:06+01:00 [info]: Last name is filled as Rudra
-2024-06-07T04:30:07+01:00 [info]: Save button is clicked
-2024-06-07T05:47:37+01:00 [info]: Test for Contact Creation is started...
-2024-06-07T05:47:38+01:00 [info]: Navigated to login page 'login.salesforce.com'
-2024-06-07T05:47:38+01:00 [info]: Filled username
-2024-06-07T05:47:38+01:00 [info]: Filled password
-2024-06-07T05:47:39+01:00 [info]: Clicked login button
-2024-06-07T05:47:48+01:00 [info]: Setup title is visible
-2024-06-07T05:47:51+01:00 [info]: Clicked on "Service" app
-2024-06-07T05:47:54+01:00 [info]: Service title is visible
-2024-06-07T05:47:54+01:00 [info]: Contacts Tab is visible
-2024-06-07T05:47:55+01:00 [info]: Clicked on Contacts Tab
-2024-06-07T05:47:55+01:00 [info]: Contacts link is clicked
-2024-06-07T05:47:58+01:00 [info]: New button is clicked
-2024-06-07T05:48:02+01:00 [info]: First name is filled as Shiva
-2024-06-07T05:48:02+01:00 [info]: Last name is filled as Rudra
-2024-06-07T05:48:02+01:00 [info]: Save button is clicked
-2024-06-07T05:48:05+01:00 [info]: New contact created and Shiva Rudra is visible
-2024-06-07T05:48:06+01:00 [info]: Test for Contact Creation is completed
-2024-06-07T05:50:41+01:00 [info]: Test for Contact Creation is started...
-2024-06-07T05:50:41+01:00 [info]: Navigated to login page 'login.salesforce.com'
-2024-06-07T05:50:41+01:00 [info]: Filled username
-2024-06-07T05:50:41+01:00 [info]: Filled password
-2024-06-07T05:50:43+01:00 [info]: Clicked login button
-2024-06-07T05:50:51+01:00 [info]: Setup title is visible
-2024-06-07T05:50:53+01:00 [info]: Clicked on "Service" app
-2024-06-07T05:50:57+01:00 [info]: Service title is visible
-2024-06-07T05:50:57+01:00 [info]: Contacts Tab is visible
-2024-06-07T05:50:57+01:00 [info]: Clicked on Contacts Tab
-2024-06-07T05:50:57+01:00 [info]: Contacts link is clicked
-2024-06-07T05:51:00+01:00 [info]: New button is clicked
-2024-06-07T05:51:08+01:00 [info]: First name is filled as John
-2024-06-07T05:51:09+01:00 [info]: Last name is filled as Doe
-2024-06-07T05:51:09+01:00 [error]: Error clicking Save button: Error: locator.click: Test timeout of 30000ms exceeded.
-Call log:
-  [2m- waiting for getByRole('button', { name: 'Save', exact: true })[22m
-
-2024-06-07T05:51:17+01:00 [info]: Test for Contact Creation is started...
-2024-06-07T05:51:19+01:00 [info]: Navigated to login page 'login.salesforce.com'
-2024-06-07T05:51:20+01:00 [info]: Filled username
-2024-06-07T05:51:20+01:00 [info]: Filled password
-2024-06-07T05:51:23+01:00 [info]: Clicked login button
-2024-06-07T05:51:38+01:00 [info]: Setup title is visible
-2024-06-07T05:55:05+01:00 [info]: Test for Contact Creation is started...
-2024-06-07T05:55:06+01:00 [info]: Navigated to login page 'login.salesforce.com'
-2024-06-07T05:55:06+01:00 [info]: Filled username
-2024-06-07T05:55:06+01:00 [info]: Filled password
-2024-06-07T05:55:07+01:00 [info]: Clicked login button
-2024-06-07T05:55:15+01:00 [info]: Setup title is visible
-2024-06-07T05:55:18+01:00 [info]: Clicked on "Service" app
-2024-06-07T05:55:20+01:00 [info]: Service title is visible
-2024-06-07T05:55:21+01:00 [info]: Contacts Tab is visible
-2024-06-07T05:55:21+01:00 [info]: Clicked on Contacts Tab
-2024-06-07T05:55:21+01:00 [info]: Contacts link is clicked
-2024-06-07T05:55:24+01:00 [info]: New button is clicked
-2024-06-07T05:55:26+01:00 [info]: First name is filled as John
-2024-06-07T05:55:27+01:00 [info]: Last name is filled as Doe
-2024-06-07T05:55:27+01:00 [info]: Save button is clicked
-2024-06-07T05:55:31+01:00 [info]: New contact created and John Doe is visible
-2024-06-07T05:55:32+01:00 [info]: Test for Contact Creation is completed
-2024-06-07T05:55:44+01:00 [info]: Test for Contact Creation is started...
-2024-06-07T05:55:46+01:00 [info]: Navigated to login page 'login.salesforce.com'
-2024-06-07T05:55:46+01:00 [info]: Filled username
-2024-06-07T05:55:46+01:00 [info]: Filled password
-2024-06-07T05:55:48+01:00 [info]: Clicked login button
-2024-06-07T05:55:56+01:00 [info]: Setup title is visible
-2024-06-07T05:56:02+01:00 [info]: Service title is visible
-2024-06-07T05:56:02+01:00 [info]: Contacts Tab is visible
-2024-06-07T05:56:03+01:00 [info]: Clicked on Contacts Tab
-2024-06-07T05:56:03+01:00 [info]: Contacts link is clicked
-2024-06-07T05:56:06+01:00 [info]: New button is clicked
-2024-06-07T05:56:11+01:00 [info]: First name is filled as Jane
-2024-06-07T05:56:11+01:00 [info]: Last name is filled as Doe
-2024-06-07T05:56:12+01:00 [info]: Save button is clicked
-2024-06-07T06:00:05+01:00 [info]: Test for Contact Creation is started...
-2024-06-07T06:00:06+01:00 [info]: Navigated to login page 'login.salesforce.com'
-2024-06-07T06:00:06+01:00 [info]: Filled username
-2024-06-07T06:00:06+01:00 [info]: Filled password
-2024-06-07T06:00:07+01:00 [info]: Clicked login button
-2024-06-07T06:00:16+01:00 [info]: Setup title is visible
-2024-06-07T06:00:19+01:00 [info]: Clicked on "Service" app
-2024-06-07T06:00:24+01:00 [info]: Service title is visible
-2024-06-07T06:00:24+01:00 [info]: Contacts Tab is visible
-2024-06-07T06:00:24+01:00 [info]: Clicked on Contacts Tab
-2024-06-07T06:00:24+01:00 [info]: Contacts link is clicked
-2024-06-07T06:02:00+01:00 [info]: Test for Contact Creation is started...
-2024-06-07T06:02:01+01:00 [info]: Navigated to login page 'login.salesforce.com'
-2024-06-07T06:02:01+01:00 [info]: Filled username
-2024-06-07T06:02:01+01:00 [info]: Filled password
-2024-06-07T06:02:02+01:00 [info]: Clicked login button
-2024-06-07T06:02:11+01:00 [info]: Setup title is visible
-2024-06-07T06:02:14+01:00 [info]: Clicked on "Service" app
-2024-06-07T06:02:18+01:00 [info]: Service title is visible
-2024-06-07T06:02:18+01:00 [info]: Contacts Tab is visible
-2024-06-07T06:02:18+01:00 [info]: Clicked on Contacts Tab
-2024-06-07T06:02:18+01:00 [info]: Contacts link is clicked
-2024-06-07T06:02:23+01:00 [info]: New button is clicked
-2024-06-07T06:02:26+01:00 [info]: First name is filled as Jane
-2024-06-07T06:02:26+01:00 [info]: Last name is filled as Doe
-2024-06-07T06:02:26+01:00 [info]: Save button is clicked
-2024-06-07T06:02:26+01:00 [info]: New contact created and Jane Doe is visible
-2024-06-07T06:03:54+01:00 [info]: Test for Contact Creation is started...
-2024-06-07T06:03:54+01:00 [info]: Navigated to login page 'login.salesforce.com'
-2024-06-07T06:03:54+01:00 [info]: Filled username
-2024-06-07T06:03:54+01:00 [info]: Filled password
-2024-06-07T06:03:56+01:00 [info]: Clicked login button
-2024-06-07T06:04:04+01:00 [info]: Setup title is visible
-2024-06-07T06:04:08+01:00 [info]: Clicked on "Service" app
-2024-06-07T06:04:12+01:00 [info]: Service title is visible
-2024-06-07T06:04:12+01:00 [info]: Contacts Tab is visible
-2024-06-07T06:04:13+01:00 [info]: Clicked on Contacts Tab
-2024-06-07T06:04:13+01:00 [info]: Contacts link is clicked
-2024-06-07T06:04:16+01:00 [info]: New button is clicked
-2024-06-07T06:04:18+01:00 [info]: First name is filled as Jane
-2024-06-07T06:04:19+01:00 [info]: Last name is filled as Doe
-2024-06-07T06:04:19+01:00 [info]: Save button is clicked
-2024-06-07T06:04:49+01:00 [info]: Test for Contact Creation is started...
-2024-06-07T06:04:50+01:00 [info]: Navigated to login page 'login.salesforce.com'
-2024-06-07T06:04:50+01:00 [info]: Filled username
-2024-06-07T06:04:50+01:00 [info]: Filled password
-2024-06-07T06:04:51+01:00 [info]: Clicked login button
-2024-06-07T06:05:04+01:00 [info]: Setup title is visible
-2024-06-07T06:05:16+01:00 [info]: Clicked on "Service" app
-2024-06-07T06:05:18+01:00 [error]: Error occurred while waiting for "Service" title to be visible: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m()[22m
-
-Locator: getByTitle('Service', { exact: true })
-Expected: visible
-Received: <element(s) not found>
-Call log:
-  [2m- expect.toBeVisible with timeout 25000ms[22m
-[2m  - waiting for getByTitle('Service', { exact: true })[22m
-
-2024-06-07T06:06:08+01:00 [info]: Test for Contact Creation is started...
-2024-06-07T06:06:09+01:00 [info]: Navigated to login page 'login.salesforce.com'
+2024-06-08T19:51:34+01:00 [info]: Navigated to login page
+2024-06-08T19:51:35+01:00 [info]: Navigated to login page
+2024-06-08T19:51:35+01:00 [info]: Filled username
+2024-06-08T19:51:35+01:00 [info]: Filled password
+2024-06-08T19:51:36+01:00 [info]: Filled username
+2024-06-08T19:51:36+01:00 [info]: Clicked login button
+2024-06-08T19:51:37+01:00 [info]: Filled password
+2024-06-08T19:51:37+01:00 [info]: Home title is visible
+2024-06-08T19:51:37+01:00 [info]: Clicked login button
+2024-06-08T19:51:38+01:00 [info]: Home title is visible
+2024-06-08T19:51:39+01:00 [info]: Product details for Sauce Labs Bolt T-Shirt are visible
+2024-06-08T19:51:39+01:00 [info]: Product details for Sauce Labs Bike Light are visible
+2024-06-08T19:51:39+01:00 [info]: Product title for Sauce Labs Bike Light is correct
+2024-06-08T19:51:39+01:00 [info]: Product title for Sauce Labs Bolt T-Shirt is correct
+2024-06-08T19:51:39+01:00 [info]: Product price for Sauce Labs Bike Light is correct
+2024-06-08T19:51:40+01:00 [info]: Product price for Sauce Labs Bolt T-Shirt is correct
+2024-06-08T19:51:40+01:00 [info]: Navigated to login page
+2024-06-08T19:51:41+01:00 [info]: Filled username
+2024-06-08T19:51:41+01:00 [info]: Filled password
+2024-06-08T19:51:42+01:00 [info]: Clicked login button
+2024-06-08T19:51:43+01:00 [info]: Home title is visible
+2024-06-08T19:51:43+01:00 [info]: Product details for Sauce Labs Fleece Jacket are visible
+2024-06-08T19:51:44+01:00 [info]: Product title for Sauce Labs Fleece Jacket is correct
+2024-06-08T19:51:45+01:00 [info]: Product price for Sauce Labs Fleece Jacket is correct
+2024-06-08T19:51:46+01:00 [info]: Navigated to login page
+2024-06-08T19:51:46+01:00 [info]: Filled username
+2024-06-08T19:51:46+01:00 [info]: Filled password
+2024-06-08T19:51:47+01:00 [info]: Clicked login button
+2024-06-08T19:51:47+01:00 [info]: Home title is visible
+2024-06-08T19:51:49+01:00 [info]: Product details for Sauce Labs Backpack are visible
+2024-06-08T19:51:49+01:00 [info]: Navigated to login page
+2024-06-08T19:51:50+01:00 [info]: Filled username
+2024-06-08T19:51:50+01:00 [info]: Filled password
+2024-06-08T19:51:51+01:00 [info]: Product title for Sauce Labs Backpack is correct
+2024-06-08T19:51:51+01:00 [info]: Product price for Sauce Labs Backpack is correct
+2024-06-08T19:51:51+01:00 [info]: Clicked login button
+2024-06-08T19:51:52+01:00 [info]: Home title is visible
+2024-06-08T19:51:52+01:00 [info]: Product details for Sauce Labs Onesie are visible
+2024-06-08T19:51:53+01:00 [info]: Product title for Sauce Labs Onesie is correct
+2024-06-08T19:51:53+01:00 [info]: Product price for Sauce Labs Onesie is correct
+2024-06-08T19:51:54+01:00 [info]: Navigated to login page
+2024-06-08T19:51:55+01:00 [info]: Filled username
+2024-06-08T19:51:56+01:00 [info]: Filled password
+2024-06-08T19:51:56+01:00 [info]: Clicked login button
+2024-06-08T19:51:56+01:00 [info]: Home title is visible
+2024-06-08T19:51:58+01:00 [info]: Product details for Test.allTheThings() T-Shirt (Red) are visible
+2024-06-08T19:51:58+01:00 [info]: Product title for Test.allTheThings() T-Shirt (Red) is correct
+2024-06-08T19:51:59+01:00 [info]: Product price for Test.allTheThings() T-Shirt (Red) is correct
+2024-06-08T19:53:14+01:00 [info]: Navigated to login page
+2024-06-08T19:53:15+01:00 [info]: Navigated to login page
+2024-06-08T19:53:15+01:00 [info]: Navigated to login page
+2024-06-08T19:53:16+01:00 [info]: Filled username
+2024-06-08T19:53:17+01:00 [info]: Filled username
+2024-06-08T19:53:17+01:00 [info]: Filled username
+2024-06-08T19:53:17+01:00 [info]: Filled password
+2024-06-08T19:53:18+01:00 [info]: Clicked login button
+2024-06-08T19:53:19+01:00 [info]: Home title is visible
+2024-06-08T19:53:19+01:00 [info]: Added Sauce Labs Backpack to cart
+2024-06-08T19:53:20+01:00 [info]: Cart badge value is 1
+2024-06-08T19:53:20+01:00 [info]: Clicked cart link
+2024-06-08T19:53:21+01:00 [info]: Item name Sauce Labs Backpack is visible
+2024-06-08T19:53:21+01:00 [info]: Item price $29.99 is visible
+2024-06-08T19:53:21+01:00 [info]: Remove button for Sauce Labs Backpack is visible
+2024-06-08T19:53:22+01:00 [info]: Filled password
+2024-06-08T19:53:22+01:00 [info]: Clicked login button
+2024-06-08T19:53:23+01:00 [info]: Home title is visible
+2024-06-08T19:53:26+01:00 [info]: Filled password
+2024-06-08T19:53:27+01:00 [info]: Clicked login button
+2024-06-08T19:53:28+01:00 [info]: Home title is visible
+2024-06-08T19:53:28+01:00 [info]: Clicked cart link
+2024-06-08T19:53:28+01:00 [info]: Cart page title is verified
+2024-06-08T19:53:29+01:00 [info]: Continue shopping button is visible
+2024-06-08T19:53:29+01:00 [info]: Checkout button is visible
+2024-06-08T19:53:29+01:00 [info]: Clicked continue shopping
+2024-06-08T19:53:29+01:00 [info]: Home title is visible
+2024-06-08T19:53:31+01:00 [info]: Navigated to login page
+2024-06-08T19:53:31+01:00 [info]: Filled username
+2024-06-08T19:53:31+01:00 [info]: Filled password
+2024-06-08T19:53:32+01:00 [info]: Clicked login button
+2024-06-08T19:53:33+01:00 [info]: Home title is visible
+2024-06-08T19:53:33+01:00 [info]: Navigated to login page
+2024-06-08T19:53:34+01:00 [info]: Clicked product: Sauce Labs Backpack
+2024-06-08T19:53:34+01:00 [info]: Product details page for Sauce Labs Backpack is visible
+2024-06-08T19:53:34+01:00 [info]: Product image for Sauce Labs Backpack is visible
+2024-06-08T19:53:34+01:00 [info]: Product title for Sauce Labs Backpack is visible
+2024-06-08T19:53:34+01:00 [info]: Product description for Sauce Labs Backpack is visible
+2024-06-08T19:53:34+01:00 [info]: Product price for Sauce Labs Backpack is visible
+2024-06-08T19:53:34+01:00 [info]: Add to cart button for Sauce Labs Backpack is visible
+2024-06-08T19:53:35+01:00 [info]: Filled username
+2024-06-08T19:53:35+01:00 [info]: Filled password
+2024-06-08T19:53:36+01:00 [info]: Clicked login button
+2024-06-08T19:53:36+01:00 [info]: Home title is visible
+2024-06-08T19:53:37+01:00 [info]: Clicked product: Sauce Labs Backpack
+2024-06-08T19:53:37+01:00 [info]: Product details page for Sauce Labs Backpack is visible
+2024-06-08T19:53:37+01:00 [info]: Clicked back to products button
+2024-06-08T19:53:37+01:00 [info]: Home title is visible
+2024-06-08T19:53:45+01:00 [info]: Navigated to login page
+2024-06-08T19:53:46+01:00 [info]: Filled username
+2024-06-08T19:53:46+01:00 [info]: Filled password
+2024-06-08T19:53:46+01:00 [info]: Clicked login button
+2024-06-08T19:53:46+01:00 [info]: Home title is visible
+2024-06-08T19:53:47+01:00 [info]: Clicked product: Sauce Labs Bike Light
+2024-06-08T19:53:47+01:00 [info]: Product details page for Sauce Labs Bike Light is visible
+2024-06-08T19:53:47+01:00 [info]: Product image for Sauce Labs Bike Light is visible
+2024-06-08T19:53:47+01:00 [info]: Product title for Sauce Labs Bike Light is visible
+2024-06-08T19:53:47+01:00 [info]: Product description for Sauce Labs Bike Light is visible
+2024-06-08T19:53:47+01:00 [info]: Product price for Sauce Labs Bike Light is visible
+2024-06-08T19:53:47+01:00 [info]: Add to cart button for Sauce Labs Bike Light is visible
+2024-06-08T19:53:48+01:00 [info]: Navigated to login page
+2024-06-08T19:53:48+01:00 [info]: Filled username
+2024-06-08T19:53:48+01:00 [info]: Filled password
+2024-06-08T19:53:49+01:00 [info]: Clicked login button
+2024-06-08T19:53:49+01:00 [info]: Home title is visible
+2024-06-08T19:53:49+01:00 [info]: Clicked product: Sauce Labs Bike Light
+2024-06-08T19:53:49+01:00 [info]: Product details page for Sauce Labs Bike Light is visible
+2024-06-08T19:53:50+01:00 [info]: Clicked back to products button
+2024-06-08T19:53:50+01:00 [info]: Home title is visible
+2024-06-08T19:53:51+01:00 [info]: Navigated to login page
+2024-06-08T19:53:51+01:00 [info]: Filled username
+2024-06-08T19:53:51+01:00 [info]: Filled password
+2024-06-08T19:53:51+01:00 [info]: Clicked login button
+2024-06-08T19:53:52+01:00 [info]: Home title is visible
+2024-06-08T19:53:52+01:00 [info]: Clicked product: Sauce Labs Bolt T-Shirt
+2024-06-08T19:53:52+01:00 [info]: Product details page for Sauce Labs Bolt T-Shirt is visible
+2024-06-08T19:53:52+01:00 [info]: Product image for Sauce Labs Bolt T-Shirt is visible
+2024-06-08T19:53:52+01:00 [info]: Product title for Sauce Labs Bolt T-Shirt is visible
+2024-06-08T19:53:52+01:00 [info]: Product description for Sauce Labs Bolt T-Shirt is visible
+2024-06-08T19:53:52+01:00 [info]: Product price for Sauce Labs Bolt T-Shirt is visible
+2024-06-08T19:53:52+01:00 [info]: Add to cart button for Sauce Labs Bolt T-Shirt is visible
+2024-06-08T19:53:58+01:00 [info]: Navigated to login page
+2024-06-08T19:53:58+01:00 [info]: Filled username
+2024-06-08T19:53:58+01:00 [info]: Filled password
+2024-06-08T19:53:59+01:00 [info]: Clicked login button
+2024-06-08T19:53:59+01:00 [info]: Home title is visible
+2024-06-08T19:53:59+01:00 [info]: Clicked product: Sauce Labs Bolt T-Shirt
+2024-06-08T19:53:59+01:00 [info]: Product details page for Sauce Labs Bolt T-Shirt is visible
+2024-06-08T19:53:59+01:00 [info]: Clicked back to products button
+2024-06-08T19:53:59+01:00 [info]: Home title is visible
+2024-06-08T19:54:02+01:00 [info]: Navigated to login page
+2024-06-08T19:54:02+01:00 [info]: Navigated to login page
+2024-06-08T19:54:02+01:00 [info]: Filled username
+2024-06-08T19:54:02+01:00 [info]: Filled password
+2024-06-08T19:54:03+01:00 [info]: Filled username
+2024-06-08T19:54:03+01:00 [info]: Filled password
+2024-06-08T19:54:03+01:00 [info]: Clicked login button
+2024-06-08T19:54:03+01:00 [info]: Home title is visible
+2024-06-08T19:54:04+01:00 [info]: Clicked login button
+2024-06-08T19:54:04+01:00 [info]: Home title is visible
+2024-06-08T19:54:04+01:00 [info]: Clicked product: Sauce Labs Fleece Jacket
+2024-06-08T19:54:04+01:00 [info]: Product details page for Sauce Labs Fleece Jacket is visible
+2024-06-08T19:54:04+01:00 [info]: Clicked back to products button
+2024-06-08T19:54:04+01:00 [info]: Home title is visible
+2024-06-08T19:54:04+01:00 [info]: Clicked product: Sauce Labs Fleece Jacket
+2024-06-08T19:54:04+01:00 [info]: Product details page for Sauce Labs Fleece Jacket is visible
+2024-06-08T19:54:05+01:00 [info]: Product image for Sauce Labs Fleece Jacket is visible
+2024-06-08T19:54:05+01:00 [info]: Product title for Sauce Labs Fleece Jacket is visible
+2024-06-08T19:54:06+01:00 [info]: Product description for Sauce Labs Fleece Jacket is visible
+2024-06-08T19:54:06+01:00 [info]: Product price for Sauce Labs Fleece Jacket is visible
+2024-06-08T19:54:06+01:00 [info]: Add to cart button for Sauce Labs Fleece Jacket is visible
+2024-06-08T19:54:10+01:00 [info]: Navigated to login page
+2024-06-08T19:54:10+01:00 [info]: Filled username
+2024-06-08T19:54:10+01:00 [info]: Filled password
+2024-06-08T19:54:11+01:00 [info]: Clicked login button
+2024-06-08T19:54:11+01:00 [info]: Home title is visible
+2024-06-08T19:54:13+01:00 [info]: Clicked product: Sauce Labs Onesie
+2024-06-08T19:54:13+01:00 [info]: Product details page for Sauce Labs Onesie is visible
+2024-06-08T19:54:13+01:00 [info]: Product image for Sauce Labs Onesie is visible
+2024-06-08T19:54:14+01:00 [info]: Product title for Sauce Labs Onesie is visible
+2024-06-08T19:54:14+01:00 [info]: Product description for Sauce Labs Onesie is visible
+2024-06-08T19:54:14+01:00 [info]: Product price for Sauce Labs Onesie is visible
+2024-06-08T19:54:14+01:00 [info]: Navigated to login page
+2024-06-08T19:54:14+01:00 [info]: Add to cart button for Sauce Labs Onesie is visible
+2024-06-08T19:54:15+01:00 [info]: Filled username
+2024-06-08T19:54:17+01:00 [info]: Filled password
+2024-06-08T19:54:19+01:00 [info]: Navigated to login page
+2024-06-08T19:54:19+01:00 [info]: Clicked login button
+2024-06-08T19:54:20+01:00 [info]: Home title is visible
+2024-06-08T19:54:20+01:00 [info]: Filled username
+2024-06-08T19:54:20+01:00 [info]: Navigated to login page
+2024-06-08T19:54:21+01:00 [info]: Filled password
+2024-06-08T19:54:22+01:00 [info]: Clicked product: Sauce Labs Onesie
+2024-06-08T19:54:22+01:00 [info]: Product details page for Sauce Labs Onesie is visible
+2024-06-08T19:54:22+01:00 [info]: Clicked back to products button
+2024-06-08T19:54:23+01:00 [info]: Home title is visible
+2024-06-08T19:54:23+01:00 [info]: Filled username
+2024-06-08T19:54:23+01:00 [info]: Clicked login button
+2024-06-08T19:54:23+01:00 [info]: Home title is visible
+2024-06-08T19:54:24+01:00 [info]: Clicked product: Test.allTheThings() T-Shirt (Red)
+2024-06-08T19:54:24+01:00 [info]: Product details page for Test.allTheThings() T-Shirt (Red) is visible
+2024-06-08T19:54:24+01:00 [info]: Product image for Test.allTheThings() T-Shirt (Red) is visible
+2024-06-08T19:54:24+01:00 [info]: Product title for Test.allTheThings() T-Shirt (Red) is visible
+2024-06-08T19:54:24+01:00 [info]: Product description for Test.allTheThings() T-Shirt (Red) is visible
+2024-06-08T19:54:24+01:00 [info]: Product price for Test.allTheThings() T-Shirt (Red) is visible
+2024-06-08T19:54:24+01:00 [info]: Add to cart button for Test.allTheThings() T-Shirt (Red) is visible
+2024-06-08T19:54:24+01:00 [info]: Filled password
+2024-06-08T19:54:26+01:00 [info]: Clicked login button
+2024-06-08T19:54:27+01:00 [info]: Home title is visible
+2024-06-08T19:54:27+01:00 [info]: Added Sauce Labs Backpack to cart
+2024-06-08T19:54:30+01:00 [info]: Navigated to login page
+2024-06-08T19:54:30+01:00 [info]: Added Sauce Labs Bike Light to cart
+2024-06-08T19:54:31+01:00 [info]: Added Sauce Labs Bolt T-Shirt to cart
+2024-06-08T19:54:31+01:00 [info]: Added Sauce Labs Fleece Jacket to cart
+2024-06-08T19:54:31+01:00 [info]: Added Sauce Labs Onesie to cart
+2024-06-08T19:54:31+01:00 [info]: Cart badge value is 5
+2024-06-08T19:54:32+01:00 [info]: Filled username
+2024-06-08T19:54:32+01:00 [info]: Filled password
+2024-06-08T19:54:33+01:00 [info]: Clicked login button
+2024-06-08T19:54:33+01:00 [info]: Home title is visible
+2024-06-08T19:54:34+01:00 [info]: Clicked cart link
+2024-06-08T19:54:34+01:00 [info]: Item name Sauce Labs Backpack is visible
+2024-06-08T19:54:34+01:00 [info]: Item price $29.99 is visible
+2024-06-08T19:54:34+01:00 [info]: Remove button for Sauce Labs Backpack is visible
+2024-06-08T19:54:34+01:00 [info]: Item name Sauce Labs Bike Light is visible
+2024-06-08T19:54:34+01:00 [info]: Item price $9.99 is visible
+2024-06-08T19:54:34+01:00 [info]: Remove button for Sauce Labs Bike Light is visible
+2024-06-08T19:54:34+01:00 [info]: Item name Sauce Labs Bolt T-Shirt is visible
+2024-06-08T19:54:35+01:00 [info]: Clicked product: Test.allTheThings() T-Shirt (Red)
+2024-06-08T19:54:35+01:00 [info]: Product details page for Test.allTheThings() T-Shirt (Red) is visible
+2024-06-08T19:54:35+01:00 [info]: Navigated to login page
+2024-06-08T19:54:35+01:00 [info]: Filled username
+2024-06-08T19:54:35+01:00 [info]: Filled password
+2024-06-08T19:54:35+01:00 [info]: Item price $15.99 is visible
+2024-06-08T19:54:36+01:00 [info]: Clicked login button
+2024-06-08T19:54:35+01:00 [info]: Clicked back to products button
+2024-06-08T19:54:36+01:00 [info]: Home title is visible
+2024-06-08T19:54:36+01:00 [info]: Sorted products by Price (high to low)
+2024-06-08T19:54:36+01:00 [info]: Products are sorted high to low
+2024-06-08T19:54:36+01:00 [info]: Remove button for Sauce Labs Bolt T-Shirt is visible
+2024-06-08T19:54:36+01:00 [info]: Item name Sauce Labs Fleece Jacket is visible
+2024-06-08T19:54:36+01:00 [info]: Item price $49.99 is visible
+2024-06-08T19:54:37+01:00 [info]: Home title is visible
+2024-06-08T19:54:37+01:00 [info]: Remove button for Sauce Labs Fleece Jacket is visible
+2024-06-08T19:54:38+01:00 [info]: Item name Sauce Labs Onesie is visible
+2024-06-08T19:54:38+01:00 [info]: Item price $7.99 is visible
+2024-06-08T19:54:38+01:00 [info]: Remove button for Sauce Labs Onesie is visible
+2024-06-08T19:54:39+01:00 [info]: Navigated to login page
+2024-06-08T19:54:40+01:00 [info]: Filled username
+2024-06-08T19:54:40+01:00 [info]: Filled password
+2024-06-08T19:54:41+01:00 [info]: Clicked login button
+2024-06-08T19:54:41+01:00 [info]: Home title is visible
+2024-06-08T19:54:42+01:00 [info]: Sorted products by Price (low to high)
+2024-06-08T19:54:42+01:00 [info]: Products are sorted low to high
+2024-06-08T19:54:44+01:00 [info]: Navigated to login page
+2024-06-08T19:54:45+01:00 [info]: Filled username
+2024-06-08T19:54:45+01:00 [info]: Filled password
+2024-06-08T19:54:46+01:00 [info]: Clicked login button
+2024-06-08T19:54:46+01:00 [info]: Home title is visible
+2024-06-08T19:54:47+01:00 [info]: Sorted products by Name (A to Z)
+2024-06-08T19:54:47+01:00 [info]: Products are sorted A to Z
+2024-06-08T19:54:48+01:00 [info]: Navigated to login page
+2024-06-08T19:54:49+01:00 [info]: Filled username
+2024-06-08T19:54:49+01:00 [info]: Filled password
+2024-06-08T19:54:50+01:00 [info]: Clicked login button
+2024-06-08T19:54:51+01:00 [info]: Navigated to login page
+2024-06-08T19:54:51+01:00 [info]: Home title is visible
+2024-06-08T19:54:51+01:00 [info]: Filled username
+2024-06-08T19:54:52+01:00 [info]: Sorted products by Name (Z to A)
+2024-06-08T19:54:52+01:00 [info]: Products are sorted Z to A
+2024-06-08T19:54:52+01:00 [info]: Filled password
+2024-06-08T19:54:54+01:00 [info]: Clicked login button
+2024-06-08T19:54:55+01:00 [info]: Home title is visible
+2024-06-08T19:54:58+01:00 [info]: Navigated to login page
+2024-06-08T19:54:58+01:00 [info]: Product details for Sauce Labs Backpack are visible
+2024-06-08T19:54:58+01:00 [info]: Product title for Sauce Labs Backpack is correct
+2024-06-08T19:54:58+01:00 [info]: Filled username
+2024-06-08T19:54:59+01:00 [info]: Product price for Sauce Labs Backpack is correct
+2024-06-08T19:54:59+01:00 [info]: Navigated to login page
+2024-06-08T19:54:59+01:00 [info]: Filled password
+2024-06-08T19:54:59+01:00 [info]: Filled username
+2024-06-08T19:55:00+01:00 [info]: Navigated to login page
+2024-06-08T19:55:01+01:00 [info]: Filled password
+2024-06-08T19:55:01+01:00 [info]: Filled username
+2024-06-08T19:55:01+01:00 [info]: Filled password
+2024-06-08T19:55:01+01:00 [info]: Clicked login button
+2024-06-08T19:55:01+01:00 [info]: Home title is visible
+2024-06-08T19:55:02+01:00 [info]: Clicked login button
+2024-06-08T19:55:02+01:00 [info]: Home title is visible
+2024-06-08T19:55:03+01:00 [info]: Clicked login button
+2024-06-08T19:55:03+01:00 [info]: Product details for Sauce Labs Bike Light are visible
+2024-06-08T19:55:03+01:00 [info]: Product title for Sauce Labs Bike Light is correct
+2024-06-08T19:55:04+01:00 [info]: Product details for Sauce Labs Fleece Jacket are visible
+2024-06-08T19:55:04+01:00 [info]: Product price for Sauce Labs Bike Light is correct
+2024-06-08T19:55:04+01:00 [info]: Product title for Sauce Labs Fleece Jacket is correct
+2024-06-08T19:55:04+01:00 [info]: Product price for Sauce Labs Fleece Jacket is correct
+2024-06-08T19:55:04+01:00 [info]: Home title is visible
+2024-06-08T19:55:06+01:00 [info]: Product details for Sauce Labs Bolt T-Shirt are visible
+2024-06-08T19:55:06+01:00 [info]: Product title for Sauce Labs Bolt T-Shirt is correct
+2024-06-08T19:55:06+01:00 [info]: Product price for Sauce Labs Bolt T-Shirt is correct
+2024-06-08T19:55:10+01:00 [info]: Navigated to login page
+2024-06-08T19:55:10+01:00 [info]: Filled username
+2024-06-08T19:55:11+01:00 [info]: Filled password
+2024-06-08T19:55:11+01:00 [info]: Clicked login button
+2024-06-08T19:55:12+01:00 [info]: Home title is visible
+2024-06-08T19:55:14+01:00 [info]: Navigated to login page
+2024-06-08T19:55:14+01:00 [info]: Product details for Sauce Labs Onesie are visible
+2024-06-08T19:55:15+01:00 [info]: Filled username
+2024-06-08T19:55:15+01:00 [info]: Product title for Sauce Labs Onesie is correct
+2024-06-08T19:55:16+01:00 [info]: Product price for Sauce Labs Onesie is correct
+2024-06-08T19:55:16+01:00 [info]: Filled password
+2024-06-08T19:55:17+01:00 [info]: Navigated to login page
+2024-06-08T19:55:17+01:00 [info]: Filled username
+2024-06-08T19:55:17+01:00 [info]: Filled password
+2024-06-08T19:55:19+01:00 [info]: Clicked login button
+2024-06-08T19:55:19+01:00 [info]: Home title is visible
+2024-06-08T19:55:19+01:00 [info]: Clicked login button
+2024-06-08T19:55:20+01:00 [info]: Navigated to login page
+2024-06-08T19:55:20+01:00 [info]: Home title is visible
+2024-06-08T19:55:20+01:00 [info]: Filled username
+2024-06-08T19:55:21+01:00 [info]: Filled password
+2024-06-08T19:55:21+01:00 [info]: Added Sauce Labs Backpack to cart
+2024-06-08T19:55:21+01:00 [info]: Product details for Test.allTheThings() T-Shirt (Red) are visible
+2024-06-08T19:55:22+01:00 [info]: Product title for Test.allTheThings() T-Shirt (Red) is correct
+2024-06-08T19:55:22+01:00 [info]: Cart badge value is 1
+2024-06-08T19:55:22+01:00 [info]: Product price for Test.allTheThings() T-Shirt (Red) is correct
+2024-06-08T19:55:23+01:00 [info]: Clicked login button
+2024-06-08T19:55:23+01:00 [info]: Home title is visible
+2024-06-08T19:55:24+01:00 [info]: Added Sauce Labs Bike Light to cart
+2024-06-08T19:55:24+01:00 [info]: Cart badge value is 1
+2024-06-08T19:55:26+01:00 [info]: Navigated to login page
+2024-06-08T19:55:26+01:00 [info]: Filled username
+2024-06-08T19:55:26+01:00 [info]: Filled password
+2024-06-08T19:55:27+01:00 [info]: Clicked login button
+2024-06-08T19:55:27+01:00 [info]: Home title is visible
+2024-06-08T19:55:28+01:00 [info]: Added Sauce Labs Bolt T-Shirt to cart
+2024-06-08T19:55:28+01:00 [info]: Cart badge value is 1
+2024-06-08T19:55:32+01:00 [info]: Navigated to login page
+2024-06-08T19:55:33+01:00 [info]: Navigated to login page
+2024-06-08T19:55:33+01:00 [info]: Filled username
+2024-06-08T19:55:33+01:00 [info]: Navigated to login page
+2024-06-08T19:55:33+01:00 [info]: Filled username
+2024-06-08T19:55:34+01:00 [info]: Filled password
+2024-06-08T19:55:34+01:00 [info]: Filled password
+2024-06-08T19:55:34+01:00 [info]: Filled username
+2024-06-08T19:55:34+01:00 [info]: Filled password
+2024-06-08T19:55:34+01:00 [info]: Clicked login button
+2024-06-08T19:55:35+01:00 [info]: Clicked login button
+2024-06-08T19:55:35+01:00 [info]: Clicked login button
+2024-06-08T19:55:35+01:00 [info]: Home title is visible
+2024-06-08T19:55:36+01:00 [info]: Added Sauce Labs Onesie to cart
+2024-06-08T19:55:36+01:00 [info]: Home title is visible
+2024-06-08T19:55:36+01:00 [info]: Cart badge value is 1
+2024-06-08T19:55:36+01:00 [info]: Home title is visible
+2024-06-08T19:55:37+01:00 [info]: Added Test.allTheThings() T-Shirt (Red) to cart
+2024-06-08T19:55:37+01:00 [info]: Cart badge value is 1
+2024-06-08T19:55:37+01:00 [info]: Added Sauce Labs Fleece Jacket to cart
+2024-06-08T19:55:37+01:00 [info]: Cart badge value is 1
+2024-06-08T19:55:38+01:00 [info]: Navigated to login page
+2024-06-08T19:55:39+01:00 [info]: Filled username
+2024-06-08T19:55:39+01:00 [info]: Filled password
+2024-06-08T19:55:40+01:00 [info]: Clicked login button
+2024-06-08T19:55:40+01:00 [info]: Home title is visible
+2024-06-08T19:55:40+01:00 [info]: Added Sauce Labs Backpack to cart
+2024-06-08T19:55:40+01:00 [info]: Added Sauce Labs Bike Light to cart
+2024-06-08T19:55:40+01:00 [info]: Added Sauce Labs Bolt T-Shirt to cart
+2024-06-08T19:55:41+01:00 [info]: Added Sauce Labs Fleece Jacket to cart
+2024-06-08T19:55:42+01:00 [info]: Added Sauce Labs Onesie to cart
+2024-06-08T19:55:43+01:00 [info]: Added Test.allTheThings() T-Shirt (Red) to cart
+2024-06-08T19:55:43+01:00 [info]: Cart badge value is 6

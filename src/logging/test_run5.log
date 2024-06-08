@@ -1,0 +1,16 @@
+2024-06-08T18:30:10+01:00 [info]: Added Sauce Labs Onesie to cart
+2024-06-08T18:30:10+01:00 [info]: Cart badge value is 5
+2024-06-08T18:30:12+01:00 [info]: Clicked cart link
+2024-06-08T18:30:12+01:00 [info]: Item name Sauce Labs Backpack is visible
+2024-06-08T18:30:12+01:00 [info]: Item name Sauce Labs Bike Light is visible
+2024-06-08T18:30:12+01:00 [info]: Item name Sauce Labs Bolt T-Shirt is visible
+2024-06-08T18:30:12+01:00 [info]: Item name Sauce Labs Fleece Jacket is visible
+2024-06-08T18:30:12+01:00 [info]: Item name Sauce Labs Onesie is visible
+2024-06-08T19:36:12+01:00 [info]: Navigated to login page
+2024-06-08T19:36:13+01:00 [info]: Filled username
+2024-06-08T19:36:13+01:00 [info]: Filled password
+2024-06-08T19:36:13+01:00 [info]: Clicked login button
+2024-06-08T19:36:14+01:00 [info]: Home title is visible
+2024-06-08T19:36:14+01:00 [info]: Clicked product: Sauce Labs Bolt T-Shirt
+2024-06-08T19:36:14+01:00 [info]: Product details page for Sauce Labs Bolt T-Shirt is visible
+2024-06-08T19:36:15+01:00 [info]: Clicked back to products button

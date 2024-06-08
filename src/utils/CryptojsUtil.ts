@@ -3,7 +3,7 @@
 const CryptoJSUtil = require("crypto-js");
 
 // Get the SALT from the system environment variable
-const SALT = process.env.SALT || "defaultSalt";
+let SALT = process.env.SALT! || "defaultSalt";
 
 // Encryption function
 export function encrypt(text: string) {
@@ -12,8 +12,9 @@ export function encrypt(text: string) {
 }
 
 // Decryption function
-export function decrypt(cipherText: string) {
-  const bytes = CryptoJSUtil.AES.decrypt(cipherText, SALT);
-  const originalText = bytes.toString(CryptoJSUtil.enc.Utf8);
-  return originalText;
-}
+// export function decrypt(cipherText: string) {
+//   SALT = process.env.SALT! || "defaultSalt";
+//   const bytes = CryptoJSUtil.AES.decrypt(cipherText, SALT);
+//   const originalText = bytes.toString(CryptoJSUtil.enc.Utf8);
+//   return originalText;
+// }
